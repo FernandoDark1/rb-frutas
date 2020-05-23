@@ -1,0 +1,39 @@
+body {
+    background: white;
+    background-size: auto 100vh;
+
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+  }
+
+  .menu li {
+      list-style: none;
+  }
+
+  .site-title {
+    font-size: 40px;
+    color: red;
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .site-subtitle {
+      color: red;
+      text-align: center;
+  }
+
+  .sobre {
+  }

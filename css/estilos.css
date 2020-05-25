@@ -22,10 +22,11 @@ header {
       list-style: none;
   }
 
-  .titulo {
+  .logo {
     line-height: 10em;
     padding: 5em;
     text-align: center;
+    width: 100%;
   }
 
   .sobre {

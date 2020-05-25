@@ -1,7 +1,6 @@
 body {
     background: white;
     background-size: auto 100vh;
-
 }
 
 header {
@@ -23,17 +22,24 @@ header {
       list-style: none;
   }
 
-  .site-title {
-    font-size: 40px;
-    color: red;
-    line-height: 1em;
+  .titulo {
+    line-height: 10em;
+    padding: 5em;
     text-align: center;
   }
 
-  .site-subtitle {
-      color: red;
-      text-align: center;
+  .sobre {
   }
 
-  .sobre {
+  .contato .icons {
+      font-size: 5em;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .rodapé {
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.4em;
+    text-align: center;
   }

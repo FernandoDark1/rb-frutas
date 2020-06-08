@@ -34,20 +34,9 @@ header {
     justify-content: center;
   }
 
-  @media (min-width: 800px) {
-    .logo {
-      line-height: 10em;
-    padding: 5em;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-    }
-  }
-
   .sobre {
-    font-size: 20px;
     height: 600px;
-    padding: 100px;
+    margin-left: 20px;
   }
 
   .sobre p {
@@ -56,21 +45,22 @@ header {
 
   .portifolio .grid {
     display: grid;
-    grid-template-columns: repeat(2, 260px);
     justify-content: center;
-    padding: 50px;
     text-align: center;
   }
 
   @media (min-width: 800px) {
-  .img-portifolio {
-    height: 230px;
-    width: 260px;
+  .portifolio .grid {
+    grid-template-columns: repeat(2, 260px);
   }
   }
 
-  
- 
+  @media (min-width: 360px) {
+    .portifolio .grid {
+      display: grid;
+      grid-template-columns: (230px 260px)
+      }
+    }
 
   .icons {
     justify-content: center;

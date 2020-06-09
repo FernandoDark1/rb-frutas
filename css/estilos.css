@@ -1,20 +1,24 @@
 body {
     background: white;
     background-size: auto 100vh;
-
+    font-family: 'Kanit', sans-serif;
+    height: 100vh;
 }
 
 header {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
     background-color: whitesmoke;
+    justify-content: space-around;
     top: 0;
     position: fixed;
     width: 100vw;
+    z-index: 1;
   }
 
   .menu ul {
@@ -38,9 +42,13 @@ header {
   }
 
   a {
-    font-size: 18px;
+    font-size: 20px;
     padding: 2px 20px;
     text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   .logo {
@@ -53,7 +61,6 @@ header {
 
   .sobre {
     height: 600px;
-    margin-left: 20px;
   }
 
   .sobre p {
